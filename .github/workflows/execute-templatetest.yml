@@ -3,9 +3,6 @@ name: Run Template Test
 on:
   workflow_call:
     inputs:
-      project-path:
-        required: true
-        type: string
       dotnet-version:
         required: true
         type: string
@@ -29,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Install Template
-        run: cd ${{ inputs.project-path }} && dotnet new --install . --force
+        run: dotnet new --install . --force
       - name: Instantiate Test Project from Template
-        run: cd ${{ inputs.project-path }} && dotnet new wbtest --output TestProject
+        run: dotnet new wbtest --output TestProject
       - name: Run Test Project
-        run: cd ${{ inputs.project-path }}/TestProject && dotnet test --configuration ${{ inputs.configuration }}
+        run: cd TestProject && dotnet test --configuration ${{ inputs.configuration }}
