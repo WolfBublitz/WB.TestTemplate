@@ -1,4 +1,4 @@
-namespace TestProject.TheConstructorTests;
+namespace TestProjectName.TheConstructorTests;
 
 [TestClass]
 public class TheConstructor

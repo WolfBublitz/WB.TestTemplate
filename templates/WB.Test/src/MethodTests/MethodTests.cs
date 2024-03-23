@@ -1,4 +1,4 @@
-namespace TestProject.MethodTests.TheMethodTests;
+namespace TestProjectName.MethodTests.TheMethodTests;
 
 [TestClass]
 public class TheMethodTests

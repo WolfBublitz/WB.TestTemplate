@@ -8,7 +8,7 @@
     "identity": "WB.Test",
     "name": "WB Test Project",
     "shortName": "wbtest",
-    "sourceName": "TestProject",
+    "sourceName": "TestProjectName",
     "preferNameDirectory": true,
     "tags": {
         "language": "C#",
