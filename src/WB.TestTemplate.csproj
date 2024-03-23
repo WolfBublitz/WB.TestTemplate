@@ -9,9 +9,7 @@
     <Authors>Wolf Bublitz</Authors>
     <Description>Template for a MSTest project.</Description>
     <PackageTags>dotnet-new;templates;wb;testing</PackageTags>
-
     <TargetFramework>net8.0</TargetFramework>
-
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
