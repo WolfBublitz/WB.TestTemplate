@@ -20,6 +20,7 @@ jobs:
 
   TemplateTest:
     name: Template Test
+    needs: [BuildNugetPackage]
     uses: ./.github/workflows/execute-templatetest.yml
     with:
       dotnet-version: 8.0.x

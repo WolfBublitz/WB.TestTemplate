@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Install Template
-        run: dotnet new --install . --force
+        run: dotnet new --install src/bin/Release/WB.TestTemplate*.nupkg --force
       - name: Instantiate Test Project from Template
         run: dotnet new wbtest --output TestProject
       - name: Run Test Project
-        run: cd TestProject && dotnet test --configuration ${{ inputs.configuration }}
+        run: cd TestProject/src && dotnet test --configuration ${{ inputs.configuration }}
