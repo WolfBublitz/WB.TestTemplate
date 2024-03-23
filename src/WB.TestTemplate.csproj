@@ -4,6 +4,7 @@
     <PackageType>Template</PackageType>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageId>WB.TestTemplate</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Title>WB Test Templates</Title>
     <Authors>Wolf Bublitz</Authors>
     <Description>Template for a MSTest project.</Description>
