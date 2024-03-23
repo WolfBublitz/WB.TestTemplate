@@ -18,7 +18,7 @@ jobs:
       dotnet-version: 8.0.x
       configuration: Release
 
-  TemplateTate:
+  TemplateTest:
     name: Template Test
     uses: ./.github/workflows/execute-templatetest.yml
     with:
@@ -27,7 +27,7 @@ jobs:
 
   PublishToGithub:
     name: Publish to Github
-    needs: [TemplateTate]
+    needs: [TemplateTest]
     uses: ./.github/workflows/publish-to-github.yml
     with:
       package-path: ./**/*.nupkg
