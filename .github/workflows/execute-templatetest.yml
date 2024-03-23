@@ -21,8 +21,6 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: nuget-package
-      - name: Install dependencies
-        run: dotnet restore
       - name: Install Template
         run: dotnet new install src/bin/Release/WB.TestTemplate*.nupkg --force
       - name: Instantiate Test Project from Template
