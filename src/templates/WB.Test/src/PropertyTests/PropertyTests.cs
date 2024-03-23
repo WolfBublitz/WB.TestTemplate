@@ -1,4 +1,4 @@
-namespace test.PropertyTests.ThePropertyTests;
+namespace TestProjectName.PropertyTests.ThePropertyTests;
 
 [TestClass]
 public class TheProperty
