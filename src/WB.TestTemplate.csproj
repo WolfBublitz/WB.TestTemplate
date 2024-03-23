@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageId>WB.TestTemplate</PackageId>
     <Title>WB Test Templates</Title>
     <Authors>Wolf Bublitz</Authors>
     <Description>Template for a MSTest project.</Description>
-    <PackageTags>dotnet-new;templates;wb</PackageTags>
+    <PackageTags>dotnet-new;templates;wb;testing</PackageTags>
 
     <TargetFramework>net8.0</TargetFramework>
 
