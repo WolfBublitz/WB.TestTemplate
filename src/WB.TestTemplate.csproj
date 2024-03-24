@@ -6,7 +6,7 @@
     <Authors>Wolf Bublitz</Authors>
     <Description>Template for a MSTest project.</Description>
     <RepositoryUrl>https://github.com/WolfBublitz/WB.TestUtils</RepositoryUrl>
-  </PropertyGroup
+  </PropertyGroup>
 
   <!-- Version -->
   <PropertyGroup>
