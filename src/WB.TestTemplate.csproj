@@ -15,6 +15,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <RepositoryUrl>https://github.com/WolfBublitz/WB.TestUtils</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
