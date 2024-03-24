@@ -5,6 +5,7 @@ This is a template for the dotnet tool providing a ready-to-use test project bas
 - `FluenAssertions` for more readable assertions
 - `Moq` for mocking
 - `Verify` for snapshot testing
+- `WB.TestUtils` for additional test utilities
 
 ## Installation
 
