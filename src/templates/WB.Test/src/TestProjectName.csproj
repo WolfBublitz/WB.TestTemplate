@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.2.2" />
     <PackageReference Include="MSTest.TestFramework" Version="3.2.2" />
+    <PackageReference Include="WB.TestUtils" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
