@@ -3,6 +3,7 @@
 ## 1.2.0
 
 - Added `coverlet` code coverage.
+- Raised `WB.TestUtils` to `1.3.0`
 
 ## 1.1.0
 
