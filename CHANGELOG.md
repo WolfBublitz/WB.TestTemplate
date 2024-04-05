@@ -1,5 +1,9 @@
 # WB.TestTemplate
 
+## 1.2.1
+
+- Coverlet now generates a `lconv.info` file.
+
 ## 1.2.0
 
 - Added `coverlet` code coverage.
