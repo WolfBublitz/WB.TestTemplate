@@ -1,5 +1,9 @@
 # WB.TestTemplate
 
+## 1.2.0
+
+- Added `coverlet` code coverage.
+
 ## 1.1.0
 
 - Added `WB.TestUtils` package to the project.
