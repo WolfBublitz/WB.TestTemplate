@@ -17,8 +17,11 @@
     <VSTestResultsDirectory>$(MSBuildThisFileDirectory)/TestResults/$(TargetFramework)</VSTestResultsDirectory>
   </PropertyGroup>
 
+  <!-- coverlet configuration -->
   <PropertyGroup>
     <CollectCoverage>true</CollectCoverage>
+    <CoverletOutputFormat>lcov</CoverletOutputFormat>
+    <CoverletOutput>lcov.info</CoverletOutput>
   </PropertyGroup>
 
   <ItemGroup>
