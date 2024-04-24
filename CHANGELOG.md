@@ -1,5 +1,12 @@
 # WB.TestTemplate
 
+## 1.3.0
+
+- Raised `MSTest.TestAdapter` to `3.3.1`
+- Raised `MSTest.TestFramework` to `3.3.1`
+- Added `FluentAssertions.Analyzers`
+- Restructured the package references in the test project
+
 ## 1.2.1
 
 - Coverlet now generates a `lconv.info` file.
